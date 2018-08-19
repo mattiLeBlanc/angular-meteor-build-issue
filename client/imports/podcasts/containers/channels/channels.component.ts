@@ -8,6 +8,10 @@ import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
   styleUrls: [ 'channels.component.scss' ],
   template: `
   <div>CHANNELS PAGE WORKING</div>
+  <mat-form-field>
+    <input matInput placeholder="Favorite food" value="Sushi">
+  </mat-form-field>
+
 
   `,
 } )

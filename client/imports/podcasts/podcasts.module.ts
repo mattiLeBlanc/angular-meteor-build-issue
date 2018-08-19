@@ -16,6 +16,8 @@ import * as fromComponents from './components';
 // containers
 import * as fromContainers from './containers';
 
+import { matDesign } from './components/mat-design';
+
 // services
 // import * as fromServices from './services';
 
@@ -39,6 +41,7 @@ export const ROUTES: Routes = [
     FlexLayoutModule,
     RouterModule.forChild(ROUTES),
     StoreModule.forFeature( 'podcasts', {} ),
+    ...matDesign
   ],
   providers: [
     // ...fromServices.services,
