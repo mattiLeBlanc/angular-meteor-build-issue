@@ -1,0 +1,27 @@
+@import 'styles/variables.scss';
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  flex-direction: column;
+}
+body {
+  background-color: $color-almost-black;
+}
+a {
+  text-decoration: none;
+  outline: 0;
+}
+
